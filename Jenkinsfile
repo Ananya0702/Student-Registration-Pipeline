@@ -20,7 +20,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat 'py test.py'
+                bat '"C:\\Users\\pakash chandra shukl\\AppData\\Local\\Programs\\Python\\Python314\\python.exe" test.py'
             }
         }
     }
